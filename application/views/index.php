@@ -24,7 +24,7 @@
           <div class="col-md-4">
             <div class="item first">
               <img src="images/main_icon1.png" width="150" height="150" alt="">
-              <div class="name dark"><span>Natural</span> Coffee</div>
+              <div class="name dark"><span>Natural</span> cake</div>
             </div>
           </div>
           <div class="col-md-4">
