@@ -19,7 +19,18 @@
 <link href="<?php echo base_url('media/css/owl.carousel.min.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url('media/css/zoomslider.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url('media/css/style.css'); ?>" rel="stylesheet" type="text/css" />
-
+<style type="text/css">
+  .wishadd{
+    color: #EF5350;
+  }
+  .wishremove{
+    color: #888 !important;
+  }
+   #gallery_01 img{border:2px solid white;}
+ 
+ /*Change the colour*/
+ .active img{border:2px solid #333 !important;}
+</style>
 </head>
 <body>
   <!-- HEADER -->

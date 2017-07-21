@@ -38,6 +38,13 @@
                             <input type="number" min="1" max="100" step="1" value="" class="form-control" id="itemno_<?php echo $row->id;?>" onchange="javascript:item(<?php echo $row->id;?>);">
             </div>
           <?php }?>-->
+            <?php if(!empty($this->user->check_cart($this->session->userdata('uid'),$id))) {?>
+                <a href="<?php echo base_url("index.php/cart"); ?>" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Go To Cart</a>
+            <?php }else{?>
+                <a  onclick="javascript:cartadd(<?php echo $id;?>);" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</a>
+                <a  href="<?php echo base_url("index.php/cart"); ?>" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Go To Cart</a>
+              </div>
+           <?php }?>
               <a href="#" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i>add to cart</a>
           </div>
           <div class="product-info">
