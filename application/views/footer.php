@@ -90,9 +90,25 @@
 <script type="text/javascript" src="<?php echo base_url('media/js/jquery.select2.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('media/js/jquery.swipebox.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('media/js/main.js'); ?>"></script>
+<script type="text/javascript">
+    function remove_cart(postid)
+    {
+      var x = document.getElementById("cartcounter").innerHTML;
+      var l=document.getElementById("cost_"+postid).innerHTML;
+      var t=document.getElementById("totalcost").innerHTML;
+      var s=t-l;
+            $.ajax({
+                    type: "POST",
+                    url: "<?php echo site_url('cart/remove_cart');?>",
+                    data:"postid="+postid,
+                    success: function (response) {
+                        document.getElementById("cartcounter").innerHTML = --x;
+                        document.getElementById("totalcost").innerHTML=s;
+                     $("#cart_"+postid).hide();
+                    }
+                });
+    }
+  </script>
 
 </body>
-
-
-<!-- Mirrored from just-themes.com/mrcoffee/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jul 2017 11:02:23 GMT -->
 </html>

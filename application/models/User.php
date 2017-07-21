@@ -64,9 +64,10 @@ class user extends CI_Model
 		$query=$this->db->get('wishlist');;
 		return $query->result();
 	}
-	public function showcart($id)
+	public function showcart($id,$uid)
 	{	
-		$this->db->where('uid', $id);
+		$this->db->where('uid', $uid);
+		$this->db->where('productid', $id);
 		$query=$this->db->get('cart');;
 		return $query->result();
 	}
@@ -240,7 +241,7 @@ class user extends CI_Model
 		return $query->result();
 	}
 	public function showproduct_mostview_cat($category)
-	{ 	$this->db->limit(10);
+	{ 	$this->db->limit(4);
 		$this->db->order_by("view", "desc");
 		$this->db->where('category',$category);
 		$this->db->where('status', "hosted");

@@ -25,7 +25,7 @@ class Product extends CI_Controller {
 		$config = array();
         $config["base_url"] = base_url() . "index.php/product/view/$category";
         $config["total_rows"] = $this->user->countproduct_category($category);
-        $config["per_page"] = 1;
+        $config["per_page"] = 10;
         $config["uri_segment"] = 3;
 
         $this->pagination->initialize($config);
@@ -48,6 +48,7 @@ class Product extends CI_Controller {
 		$data['query']=$this->user->get_image_id($id);
 		$data['query1']=$this->user->get_review_id($id);
 		$data['query2']=$this->user->showproduct_mostview_cat($category);
+		$details['query3']=$this->user->showcart($id,$this->session->userdata('uid'));
 			$data['id'] = $details[0]->id;
 			$data['picture'] = $details[0]->picture;
 			$data['title'] = $details[0]->title;
