@@ -95,6 +95,7 @@ class Home extends CI_Controller {
         	$details['category']=$this->user->showcategory();
 			$this->load->view('header',$details);
 			$this->load->view('contacts');
+			$this->load->view('footer');
 		}
 		else
 		{

@@ -70,7 +70,7 @@
               <?php } else{?>
               <li><a href="#"  data-toggle="modal" data-target="#myModal">Login</a></li>
               <?php }?>
-                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="<?php echo base_url("index.php/home/contact"); ?>">Contacts</a></li>
               </ul>
             </div>
             <div class="col-lg-2 col-md-12">
