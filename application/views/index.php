@@ -1,5 +1,5 @@
 <!-- MAIN SLIDER -->
-        <section id="demo-1" class="main-slider" data-zs-src='["images/main-slider-img.jpg"]'>
+        <section id="demo-1" class="main-slider" data-zs-src='["<?php echo base_url(); ?>media/images/main-slider-img.jpg"]'>
       <div class="main-slider-caption">
               <div class="container">
                 <div class="row">
@@ -23,20 +23,20 @@
         <div class="row no-gutter">
           <div class="col-md-4">
             <div class="item first">
-              <img src="<?php echo base_url(); ?>media/images/main_icon1.png" width="150" height="150" alt="">
-              <div class="name dark"><span>Natural</span> cake</div>
+              <img src="<?php echo base_url(); ?>media/images/main_icon1.png" width="200" height="200" alt="">
+              <div class="name dark"><span>Natural</span> Cake</div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="item second">
-              <img src="<?php echo base_url(); ?>media/images/main_icon2.png" width="150" height="150" alt="">
-              <div class="name"><span>Chinese</span> Tea</div>
+              <img src="<?php echo base_url(); ?>media/images/main_icon2.png" width="200" height="200" alt="">
+              <div class="name"><span>Chinese</span> Burger</div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="item third">
-              <img src="<?php echo base_url(); ?>media/images/main_icon3.png" width="150" height="150" alt="">
-              <div class="name"><span>Sweet</span> Desserts</div>
+              <img src="<?php echo base_url(); ?>media/images/main_icon3.png" width="200" height="200" alt="">
+              <div class="name"><span>Sweet</span> Pizza</div>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="about-img"><img src="images/about-img.jpg" alt=""></div>
+          <div class="about-img"><img src="<?php echo base_url(); ?>media/images/about-img.jpg" alt=""></div>
         </div>
       </div>
     </div>
@@ -515,7 +515,7 @@
               <div class="item">
                 <div class="review-item">
                   <p class="text">Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus eget<br> magna aliquet ultricies. Praesent gravida hendrerit ex, nec eleifend sem convallis vitae. Sed sagittis<br> sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. </p>
-                  <div class="img-wrap"><img src="images/review-ava.jpg" alt=""></div>
+                  <div class="img-wrap"><img src="<?php echo base_url(); ?>media/images/review-ava.jpg" alt=""></div>
                   <div class="name">Leona Richards</div>
                   <div class="date">1 year ago</div>
                 </div>
@@ -523,7 +523,7 @@
               <div class="item">
                 <div class="review-item">
                   <p class="text">Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus eget<br> magna aliquet ultricies. Praesent gravida hendrerit ex, nec eleifend sem convallis vitae. Sed sagittis<br> sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. </p>
-                  <div class="img-wrap"><img src="images/review-ava.jpg" alt=""></div>
+                  <div class="img-wrap"><img src="<?php echo base_url(); ?>media/images/review-ava.jpg" alt=""></div>
                   <div class="name">Leona Richards</div>
                   <div class="date">1 year ago</div>
                 </div>
