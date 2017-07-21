@@ -1,107 +1,110 @@
-<main class="page-content ">
-    <div class="shell section-bottom-60 offset-top-20">
-      <form action="#" class="shoping-cart">
-        <div class="table-responsive">
-          <table class="table">
-            <thead>
-              <tr>
-                <th></th>
-                <th colspan="2">Product</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Total</th>
-              </tr>
-            </thead>
-            <tbody>
-            <?php foreach ($query as $row ) {
-              $details=$this->user->get_product_id($row->productid);
-             ?>
-              <tr class="cart_item" id="cart_<?php echo $row->id;?>">
-                <td class="product-remove"><a  class="icon icon-xs text-primary mdi mdi-close" onclick="javascript:remove_cart(<?php echo $row->id;?>);"></a></td>
-                <td class="product-thumbnail"><a href="single-product.html" class="reveal-inline-block"><img src="<?php echo base_url(); ?>uploads/productthumbs/<?php echo $details[0]->picture; ?>" width="100" height="100" alt=""></a></td>
-                <td class="product-name"><p><a href="single-product.html" class="text-base"><?php  echo $details[0]->title;?></a></p></td>
-                <td class="product-subtotal"><p class="big text-primary">&#8377; <span id="itemcost_<?php echo $row->id;?>"><?php echo  $details[0]->cost;?></span></p></td>
-                <td class="product-quantity"><input value="<?php echo $row->item;?>" class="form-control" id="itemno_<?php echo $row->id;?>" onchange="javascript:item(<?php echo $row->id;?>);" ></td>
-                <td class="product-subtotal"><p class="big text-primary"> &#8377;<span id="cost_<?php echo $row->id;?>"><?php echo  $details[0]->cost*$row->item;?></span></p></td>
-              </tr>
-            <?php }?>
-              <tr class="cart_item">
-                <td></td><td></td><td></td><td></td>
-                <td class="product-name">Total</td>
-                <td><p class="big text-primary">&#8377;
-                  <span id="totalcost" ><?php $i=0;
-                   foreach ($query as $row ) {
-                  $details=$this->user->get_product_id($row->productid);
-                   $i=$i+($details[0]->cost*$row->item);}
-                   echo $i;?></span></p>
-                               
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <a href="<?php echo base_url("index.php/checkout"); ?>" class="offset-top-20 btn btn-primary pull-right">Checkout</a>
+<!-- PAGE HEAD -->
+    <section class="page-head">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Shoping cart</h1> 
+          </div>
         </div>
-      </form>
-    </div>
-  </main>
-  <footer class="page-footer section-60">
-    <div class="shell"><a href="index-2.html" class="brand"><img alt="" src="images/logo.png" width="163" height="41" class="reveal-inline-block img-responsive"></a>
-      <p>Our product is more than just another average online retailer. We sell not only top quality products, but give our customers a positive online shopping experience.  Purchase the goods you need every day or just like in a few clicks or taps, depending on the device you use to access the Internet. We work to make your life more enjoyable.</p>
-      <ul class="elements-group-20 offset-top-20">
-        <li><a href="#" class="icon icon-xs text-base fa-facebook"></a></li>
-        <li><a href="#" class="icon icon-xs text-base fa-twitter"></a></li>
-        <li><a href="#" class="icon icon-xs text-base fa-google-plus"></a></li>
-        <li><a href="#" class="icon icon-xs text-base fa-linkedin"></a></li>
-        <li><a href="#" class="icon icon-xs text-base fa-pinterest"></a></li>
-      </ul>
-      <p class="offset-top-20 text-muted"><span class='text-bold'>Jewelry</span> 2017 | <a href='privacy.html'>Privacy Policy</a></p>
-    </div>
-  </footer>
-</div>
+      </div>
+    </section>
+  <!-- PAGE HEAD END -->
 
-<script src="<?php echo base_url('media/js/core.min.js'); ?>"></script> 
-<script src="<?php echo base_url('media/js/script.js'); ?>"></script>
-<script type="text/javascript">
-    function remove_cart(postid)
-    {
-      var x = document.getElementById("cartcounter").innerHTML;
-      var l=document.getElementById("cost_"+postid).innerHTML;
-      var t=document.getElementById("totalcost").innerHTML;
-      var s=t-l;
-            $.ajax({
-                    type: "POST",
-                    url: "<?php echo site_url('cart/remove_cart');?>",
-                    data:"postid="+postid,
-                    success: function (response) {
-                        document.getElementById("cartcounter").innerHTML = --x;
-                        document.getElementById("totalcost").innerHTML=s;
-                     $("#cart_"+postid).hide();
-                    }
-                });
-    }
-  </script>
-  <script type="text/javascript">
-    function item(id)
-    {
-           var i=document.getElementById("itemno_"+id).value;
-           var c=document.getElementById("itemcost_"+id).innerHTML;
-           var t=document.getElementById("totalcost").innerHTML;
-           var l=document.getElementById("cost_"+id).innerHTML;
-           var r= i*c;
-           var s=t-l;
-           var k=s+r;
-           var item = $("#itemno_"+id).val();
-            $.ajax({
-                    type: "POST",
-                    url: "<?php echo site_url('cart/itemadd');?>",
-                    data: {id: id, item: item},
-                    success: function (response) {
-                    document.getElementById("cost_"+id).innerHTML=r;
-                    document.getElementById("totalcost").innerHTML=k;
-                    }
-                });
-    }
-  </script>
-
-</body>
-</html>
+  <!-- CART --> 
+  <section class="cart-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="woocommerce">
+              <div class="page_woo woo_cart">
+                  <form method="post">
+                      <table class="shop_table shop_table_responsive cart">
+                          <thead>
+                              <tr>
+                                  <th class="product-remove">&nbsp;</th>
+                                  <th class="product-thumbnail">Product</th>
+                                  <th class="product-name">&nbsp;</th>
+                                  <th class="product-price">Price</th>
+                                  <th class="product-quantity">Quantity</th>
+                                  <th class="product-subtotal">Total</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                            <?php foreach ($query as $row ) {
+                            $details=$this->user->get_product_id($row->productid);
+                            ?>
+                              <tr class="cart_item">
+                                  <td class="product-remove">
+                                      <a onclick="javascript:remove_cart(<?php echo $row->id;?>);" class="remove" title="Remove this item"><i class="fa fa-close" aria-hidden="true"></i></a> 
+                                    </td>
+                                  <td class="product-thumbnail">
+                                      <a href="#">
+                                        <img src="<?php echo base_url(); ?>uploads/productthumbs/<?php echo $details[0]->picture; ?>" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" >
+                                      </a>
+                                  </td>
+                                  <td class="product-name" data-title="Product">
+                                      <a href="#"><?php  echo $details[0]->title;?></a> 
+                                    </td>
+                                  <td class="product-price" data-title="Price">
+                                      <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#8377; </span><span id="itemcost_<?php echo $row->id;?>"><?php echo  $details[0]->cost;?></span>
+                                  </td>
+                                  <td class="product-quantity" data-title="Quantity">
+                                      <div class="quantity">
+                                          <input type="number" min="1" max="100" step="1" value="<?php echo $row->item;?>" id="itemno_<?php echo $row->id;?>" onchange="javascript:item(<?php echo $row->id;?>);">
+                                      </div>
+                                  </td>
+                                  <td class="product-subtotal" data-title="Total">
+                                      <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#8377;</span><span id="cost_<?php echo $row->id;?>"><?php echo  $details[0]->cost*$row->item;?></span>
+                                  </td>
+                              </tr>
+                              <?php }?>
+                              <tr>
+                                  <td colspan="6" class="actions">
+                                      <div class="coupon">
+                                          <label for="coupon_code">Coupon Code:</label>
+                                          <input name="coupon_code" class="input-text" id="coupon_code" value="" type="text">
+                                          <input class="button" name="apply_coupon" value="APPLY CODE" type="submit">
+                                      </div>
+                                      <input class="button" name="update_cart" value="Update Cart" type="submit">
+                                    </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </form>
+                  <div class="cart-collaterals">
+                      <div class="cart_totals">
+                          <table class="shop_table shop_table_responsive">
+                              <tbody>
+                                  <tr class="cart-subtotal">
+                                      <th>Subtotal</th>
+                                      <td data-title="Subtotal"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#8377;
+                                        <span id="totalcost" ><?php $i=0;
+                                        foreach ($query as $row ) {
+                                        $details=$this->user->get_product_id($row->productid);
+                                        $i=$i+($details[0]->cost*$row->item);}
+                                        echo $i;?></span>
+                                      </td>
+                                  </tr>
+                                  <tr class="order-total">
+                                      <th>Total</th>
+                                      <td data-title="Total"><strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#8377;
+                                      <span id="totalcost" ><?php $i=0;
+                                      foreach ($query as $row ) {
+                                      $details=$this->user->get_product_id($row->productid);
+                                      $i=$i+($details[0]->cost*$row->item);}
+                                      echo $i;?></span></strong> </td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                          <div class="wc-proceed-to-checkout">
+                              <a href="#" class="checkout-button btn btn-default alt wc-forward">Checkout</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CART END --> 

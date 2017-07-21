@@ -71,6 +71,12 @@ class user extends CI_Model
 		$query=$this->db->get('cart');;
 		return $query->result();
 	}
+	public function showcart_user($uid)
+	{	
+		$this->db->where('uid', $uid);
+		$query=$this->db->get('cart');;
+		return $query->result();
+	}
 	function countproduct($id)
 	{	
 		$this->db->where('uid', $id);

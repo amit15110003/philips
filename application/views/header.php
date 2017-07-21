@@ -69,8 +69,8 @@
                   </ul>
                 </li>
                 <?php if ($this->session->userdata('fname')){ ?>
-              <li><a href="<?php echo base_url("index.php/profile"); ?>"><?php echo $this->session->userdata('fname'); ?></a>
-                <ul class="rd-navbar-dropdown">
+              <li class="parent"><a href="<?php echo base_url("index.php/profile"); ?>"><?php echo $this->session->userdata('fname'); ?></a>
+                <ul class="sub-menu">
                   <li><a href="<?php echo base_url("index.php/profile"); ?>">My Account</a></li>
                   <li><a href="<?php echo base_url("index.php/wishlist"); ?>">Wishlist</a></li>
                   <li><a href="<?php echo base_url("index.php/orders"); ?>">Orders</a></li>

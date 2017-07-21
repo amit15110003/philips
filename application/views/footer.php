@@ -91,6 +91,9 @@
 <script type="text/javascript" src="<?php echo base_url('media/js/jquery.swipebox.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('media/js/main.js'); ?>"></script>
 <script type="text/javascript">
+    $("#gocartbtn").hide();
+</script>
+<script type="text/javascript">
     function remove_cart(postid)
     {
       var x = document.getElementById("cartcounter").innerHTML;
@@ -109,6 +112,62 @@
                 });
     }
   </script>
-
+  <script type="text/javascript">
+      function cartadd(id)
+      { 
+        var x = document.getElementById("cartcounter").innerHTML;
+        $.ajax({  
+                     type: "POST",
+                      url: "<?php echo site_url('profile/cartadd');?>",
+                      data:"id="+id,
+                      success: function (response) {
+                        document.getElementById("cartcounter").innerHTML = ++x;
+                    $("#addcartbtn").hide();
+                    $("#gocartbtn").show();
+                    }
+                  });
+      }
+   </script>
+   <script type="text/javascript">
+    function remove_cart(postid)
+    {
+      var x = document.getElementById("cartcounter").innerHTML;
+      var l=document.getElementById("cost_"+postid).innerHTML;
+      var t=document.getElementById("totalcost").innerHTML;
+      var s=t-l;
+            $.ajax({
+                    type: "POST",
+                    url: "<?php echo site_url('cart/remove_cart');?>",
+                    data:"postid="+postid,
+                    success: function (response) {
+                        document.getElementById("cartcounter").innerHTML = --x;
+                        document.getElementById("totalcost").innerHTML=s;
+                     $("#cart_"+postid).hide();
+                    }
+                });
+    }
+  </script>
+  <script type="text/javascript">
+    function item(id)
+    {
+           var i=document.getElementById("itemno_"+id).value;
+           var c=document.getElementById("itemcost_"+id).innerHTML;
+           var t=document.getElementById("totalcost").innerHTML;
+           var l=document.getElementById("cost_"+id).innerHTML;
+           var r= i*c;
+           var s=t-l;
+           var k=s+r;
+           var item = $("#itemno_"+id).val();
+            $.ajax({
+                    type: "POST",
+                    url: "<?php echo site_url('cart/itemadd');?>",
+                    data: {id: id, item: item},
+                    success: function (response) {
+                    document.getElementById("cost_"+id).innerHTML=r;
+                    document.getElementById("totalcost").innerHTML=k;
+                    }
+                });
+    }
+  </script>
 </body>
 </html>

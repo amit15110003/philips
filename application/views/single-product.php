@@ -3,10 +3,6 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <ul class="breadcrumb">
-              <li><a href="#">Home</a></li>
-              <li>Products</li>
-            </ul>
             <h1>Products</h1> 
           </div>
         </div>
@@ -22,9 +18,13 @@
           <div class="product-image"><img src="<?php echo base_url(); ?>uploads/product/<?php echo $picture; ?>" alt=""></div>
         </div>
         <div class="col-md-7">
-          <h3 class="name"><?php echo $title; ?></h3>
+          <h3 class="name" style="text-transform: capitalize;"><?php echo $title; ?></h3>
           <div class="top-price">&#8377; <?php echo $cost;?></div>
-          <div class="description"><?php $Descr=entity_decode($Descr,$charset = NULL); echo auto_typography(html_escape($Descr)); ?></div>
+          <div class="description"><?php $Descr=entity_decode($Descr,$charset = NULL); echo auto_typography(html_escape($Descr)); ?>
+          </div>
+            <div class="item">Category: <a href="#"><?php echo $category; ?></a></div>
+            <div class="item">Product ID: <strong>10</strong></div>
+            <div class="item">Tags: <a href="#">Coffee,</a> <a href="#">Robusta</a></div>
           <div class="product-action">
           <!--<?php 
           if(!empty($query3)){
@@ -41,33 +41,14 @@
             <?php if(!empty($this->user->check_cart($this->session->userdata('uid'),$id))) {?>
                 <a href="<?php echo base_url("index.php/cart"); ?>" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Go To Cart</a>
             <?php }else{?>
-                <a  onclick="javascript:cartadd(<?php echo $id;?>);" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</a>
+                <div id="addcartbtn">
+                <a  onclick="javascript:cartadd(<?php echo $id;?>);" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to cart</a></div>
+                <div id="gocartbtn">
                 <a  href="<?php echo base_url("index.php/cart"); ?>" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Go To Cart</a>
+                </div>
               </div>
            <?php }?>
-              <a href="#" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i>add to cart</a>
           </div>
-          <div class="product-info">
-            <div class="item">Category: <a href="#"><?php echo $category; ?></a></div>
-            <div class="item">Product ID: <strong>10</strong></div>
-            <div class="item">Tags: <a href="#">Coffee,</a> <a href="#">Robusta</a></div>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="woocommerce-tabs wc-tabs-wrapper">
-            <ul class="tabs wc-tabs">
-              <li class="description_tab active">
-                <a href="#tab-description">Description</a>
-              </li>
-              <li class="reviews_tab">
-                <a href="#tab-reviews">Reviews</a>
-              </li>
-            </ul>
-            <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description">
-              <p>Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus eget magna aliquet ultricies. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In aliquet porta eleifend. Aliquam laoreet viverra lectus eu suscipit. Fusce eget cursus sem, non dapibus mauris. Morbi facilisis faucibus risus, eu pharetra libero sodales at.</p>
-              <p>In metus quam, pretium ut faucibus elementum, vulputate eu tellus. Nulla volutpat ornare ante. Aliquam sit amet augue vitae arcu pellentesque interdum vel sed orci. Quisque non dolor purus. Fusce lacinia, elit ut condimentum malesuada, ligula leo sodales enim, vel dignissim tortor lectus in mi. Nulla tristique, velit in ultricies mattis, neque sem ullamcorper erat, at pulvinar nunc metus eu nulla. Proin at urna quam. Vestibulum ac feugiat ipsum. Nullam tincidunt tellus eget bibendum sagittis.</p>
-            </div>
-          </div>    
         </div>
         <div class="col-md-12">
           <h2 class="related-title">Related Products</h2>

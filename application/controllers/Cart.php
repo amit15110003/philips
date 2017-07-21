@@ -17,7 +17,7 @@ class cart extends CI_Controller
 	
 	public function index()
 	{
-		$details['query']=$this->user->showcart($this->session->userdata('uid'));
+		$details['query']=$this->user->showcart_user($this->session->userdata('uid'));
 		$details['category']=$this->user->showcategory();
 		$this->load->view('header',$details);
 		$this->load->view('cart',$details);

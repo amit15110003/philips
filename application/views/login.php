@@ -1,46 +1,42 @@
-
-  <main class="page-content">
-    <br><br><br>
-    <div class="shell section-bottom-60">
-      <div class="range">
-        <div class="cell-md-4 text-xs-left">
-        </div>
-        <div class="cell-md-4 text-xs-left">
-          <h4>Login form</h4>
-          <?php $attributes = array("name" => "loginform");
-            echo form_open("login/index", $attributes);?>
-          <div class="offset-top-20 rd-mailform">
-            <label for="email" class="text-italic">Your E-mail:<span class="text-primary">*</span></label>
-            <input id="email" type="email" name="email">
-            <label for="password" class="text-italic">Password:<span class="text-primary">*</span></label>
-            <input id="password" type="password" name="password">
-            <button class="btn btn-primary pull-right" type="submit">Send</button>
-            <?php echo form_close(); ?>
-            <br><br>
+       <!-- PAGE HEAD -->
+    <section class="page-head">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Login</h1> 
           </div>
-            <h5><?php echo $this->session->flashdata('msg'); ?></h5>
-        </div>
-        <div class="cell-md-3 ">
         </div>
       </div>
-    </div>
-  </main>
-  <footer class="page-footer section-60">
-    <div class="shell"><a href="index-2.html" class="brand"><img alt="" src="images/logo.png" width="163" height="41" class="reveal-inline-block img-responsive"></a>
-      <p>Our product is more than just another average online retailer. We sell not only top quality products, but give our customers a positive online shopping experience.  Purchase the goods you need every day or just like in a few clicks or taps, depending on the device you use to access the Internet. We work to make your life more enjoyable.</p>
-      <ul class="elements-group-20 offset-top-20">
-        <li><a href="#" class="icon icon-xs text-base fa-facebook"></a></li>
-        <li><a href="#" class="icon icon-xs text-base fa-twitter"></a></li>
-        <li><a href="#" class="icon icon-xs text-base fa-google-plus"></a></li>
-        <li><a href="#" class="icon icon-xs text-base fa-linkedin"></a></li>
-        <li><a href="#" class="icon icon-xs text-base fa-pinterest"></a></li>
-      </ul>
-      <p class="offset-top-20 text-muted"><span class='text-bold'>Jewelry</span> 2017 | <a href='privacy.html'>Privacy Policy</a></p>
-    </div>
-  </footer>
-</div>
+    </section>
+  <!-- PAGE HEAD END -->
 
-<script src="<?php echo base_url('media/js/core.min.js'); ?>"></script> 
-<script src="<?php echo base_url('media/js/script.js'); ?>"></script>
-</body>
-</html>
+        <div class="col-md-6 col-md-offset-3">
+          <div class="contact-right">
+            <h2>Login</h2>
+            <?php $attributes = array("name" => "loginform");
+            echo form_open("login/index", $attributes);?>
+            <div class="contact-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <input class="contact-input" type="email" placeholder="Email *" name="email">
+                </div>
+                <div class="col-md-6">
+                  <input class="contact-input" type="password" placeholder="Password" name="password" style="height: 49px;
+    line-height: 49px;
+    padding: 10px 22px 10px 22px;
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    transition: all 400ms;    border: 1px solid #e3ded4;
+    border-radius: 2px;
+    font-size: 16px;">
+                </div>
+                <div class="col-md-12 text-center">
+                  <button>SUBMIT</button>
+                </div>
+              </div>  
+            </div>
+            <h5><?php echo $this->session->flashdata('msg'); ?></h5>
+            <?php echo form_close(); ?>
+          </div>
+        </div>
