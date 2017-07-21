@@ -4,10 +4,9 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-12">
-                    <div class="top-title"><span>Worldwide</span> network</div>
-                      <div class="big-title">Coffee market</div>
-                      <p>Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus eget<br> magna aliquet ultricies. Praesent gravida hendrerit ex, nec eleifend sem convallis vitae. </p> 
-                      <a href="#" class="btn btn-default">READ MORE</a>
+                      <div class="big-title">Philips Bakery</div>
+                      <p style="font-size: 30px;">"A party without cake is just a meeting." - Julia Child</p> 
+                      
                   </div>
                 </div>
               </div>
@@ -52,12 +51,13 @@
         <div class="col-md-6">
           <div class="about-text">
             <h2>About <span>Market</span></h2>
-            <p>Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus eget magna aliquet ultricies. Praesent gravida hendrerit ex, nec eleifend sem convallis vitae. </p>
+            <p> <a href="#">philipsbakery.in</a>  is an online Bakery, based in Munger, Bihar.
+We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould them as per your desire. </p>
             <ul class="about-slogan">
               <li>
                 <div class="icon"><i class="fa fa-coffee" aria-hidden="true"></i></div>
                 <div class="text">
-                  <div class="title">100% Natural Coffee</div>
+                  <div class="title">100% Fresh Baked Bread</div>
                   <p>Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus eget magna aliquet ultricies. </p>
                 </div>
               </li>
