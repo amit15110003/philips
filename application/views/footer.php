@@ -156,5 +156,18 @@
                 });
     }
   </script>
+  <script type="text/javascript">
+    function order_cancel(postid)
+    {
+            $.ajax({
+                    type: "POST",
+                    url: "<?php echo site_url('orders/order_cancel');?>",
+                    data:"postid="+postid,
+                    success: function (response) {
+                     $("#order_"+postid).hide();
+                    }
+                });
+    }
+  </script>
 </body>
 </html>

@@ -1,3 +1,14 @@
+    <!-- PAGE HEAD -->
+    <section class="page-head">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Profile</h1> 
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- PAGE HEAD END -->
 
     <div class="container" style="padding-top: 6%;">
       <div class="row">
