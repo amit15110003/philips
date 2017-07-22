@@ -40,7 +40,7 @@
 					<div class="col-md-4 col-sm-6">
 						<div class="footer-about">
 							<div class="title">About Mr.Coffee</div>
-							<p>Sed sagittis sodales lobortis. Curabitur in eleifend<br> turpis, id vehicula odio. Donec pulvinar tellus<br> eget magna aliquet ultricies. </p>
+							<p>The Philips Bakery was established in Munger,Bihar with a dream to make quality and made from scratch cakes using only the finest ingredients. We have created beautiful, unique and delicious specialty cakes for thousands of satisfied customers.</p>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6">

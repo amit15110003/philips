@@ -58,21 +58,21 @@ We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould t
                 <div class="icon"><i class="fa fa-coffee" aria-hidden="true"></i></div>
                 <div class="text">
                   <div class="title">100% Fresh Baked Bread</div>
-                  <p>Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus eget magna aliquet ultricies. </p>
+                  <p><a href="#">Philips Bakery</a> uses only the finest and freshest ingredients in all of our baked goods. </p>
                 </div>
               </li>
               <li>
                 <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
                 <div class="text">
                   <div class="title">Free Delivery</div>
-                  <p>Donec pulvinar tellus eget magna aliquet ultricies. Praesent gravida hendrerit ex, nec eleifend sem convallis vitae. </p>
+                  <p><a href="#">Philips Bakery</a> offer a FREE local delivery on all cakes!*</p>
                 </div>
               </li>
               <li>
                 <div class="icon"><i class="fa fa-check-circle" aria-hidden="true"></i></div>
                 <div class="text">
                   <div class="title">High Quality Product</div>
-                  <p>Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus eget magna aliquet ultricies. </p>
+                  <p>our philosophy is simple: create quality products using quality ingredients. <a href="#">Philips Bakery</a> use this approach not only in our cakes and pastries but in our cafe aspect as well. </p>
                 </div>
               </li>
             </ul>
@@ -149,350 +149,351 @@ We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould t
   </section>
   <!-- MAIN SHOP END -->
 
-  <!-- WHERE TO BUY -->
-  <section class="where-buy">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12"><h2>Where to buy</h2></div>
-        <div class="col-md-12">
-          <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#usa" aria-controls="usa" role="tab" data-toggle="tab">USA</a></li>
-            <li role="presentation"><a href="#germany" aria-controls="germany" role="tab" data-toggle="tab">Germany</a></li>
-            <li role="presentation"><a href="#france" aria-controls="france" role="tab" data-toggle="tab">France</a></li>
-            <li role="presentation"><a href="#italy" aria-controls="italy" role="tab" data-toggle="tab">Italy</a></li>
-            <li role="presentation"><a href="#portugal" aria-controls="portugal" role="tab" data-toggle="tab">Portugal</a></li>
-          </ul>
-          <div class="tab-content">
-            <!-- TabPanel -->
-            <div role="tabpanel" class="tab-pane fade in active" id="usa">
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+  <!-- WHERE TO BUY --
+    <section class="where-buy">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12"><h2>Where to buy</h2></div>
+          <div class="col-md-12">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#usa" aria-controls="usa" role="tab" data-toggle="tab">USA</a></li>
+              <li role="presentation"><a href="#germany" aria-controls="germany" role="tab" data-toggle="tab">Germany</a></li>
+              <li role="presentation"><a href="#france" aria-controls="france" role="tab" data-toggle="tab">France</a></li>
+              <li role="presentation"><a href="#italy" aria-controls="italy" role="tab" data-toggle="tab">Italy</a></li>
+              <li role="presentation"><a href="#portugal" aria-controls="portugal" role="tab" data-toggle="tab">Portugal</a></li>
+            </ul>
+            <div class="tab-content">
+              <!-- TabPanel --
+              <div role="tabpanel" class="tab-pane fade in active" id="usa">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>3 Big Avenue 1422 Seattle</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 17790-60544 Washington</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>3 Big Avenue 1422 Seattle</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>3 Big Avenue 1422 Seattle</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 17790-60544 Washington</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>3 Big Avenue 1422 Seattle</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 17790-60544 Washington</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- TabPanel -->
-            <div role="tabpanel" class="tab-pane fade" id="germany">
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>3 Big Avenue 1422 Seattle</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 17790-60544 Washington</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 17790-60544 Washington</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+              <!-- TabPanel --
+              <div role="tabpanel" class="tab-pane fade" id="germany">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>3 Big Avenue 1422 Seattle</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 17790-60544 Washington</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>3 Big Avenue 1422 Seattle</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 17790-60544 Washington</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>3 Big Avenue 1422 Seattle</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <!-- TabPanel -->
-            <div role="tabpanel" class="tab-pane fade" id="france">
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>3 Big Avenue 1422 Seattle</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 17790-60544 Washington</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>3 Big Avenue 1422 Seattle</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 17790-60544 Washington</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 17790-60544 Washington</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- TabPanel -->
-            <div role="tabpanel" class="tab-pane fade" id="italy">
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+              <!-- TabPanel --
+              <div role="tabpanel" class="tab-pane fade" id="france">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>3 Big Avenue 1422 Seattle</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 17790-60544 Washington</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>3 Big Avenue 1422 Seattle</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 17790-60544 Washington</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>3 Big Avenue 1422 Seattle</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>3 Big Avenue 1422 Seattle</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 17790-60544 Washington</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- TabPanel -->
-            <div role="tabpanel" class="tab-pane fade" id="portugal">
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>3 Big Avenue 1422 Seattle</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 17790-60544 Washington</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 17790-60544 Washington</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+              <!-- TabPanel --
+              <div role="tabpanel" class="tab-pane fade" id="italy">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>3 Big Avenue 1422 Seattle</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 17790-60544 Washington</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>3 Big Avenue 1422 Seattle</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>3 Big Avenue 1422 Seattle</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 17790-60544 Washington</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-4">
-                  <div class="buy-item">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <address>481 Goodisson str. 17790-60544 Washington</address>  
-                      <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
-                      <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+              </div>
+              <!-- TabPanel --
+              <div role="tabpanel" class="tab-pane fade" id="portugal">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>3 Big Avenue 1422 Seattle</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 17790-60544 Washington</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 60544 New York City - MisterCoffee</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>3 Big Avenue 1422 Seattle</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <div class="buy-item">
+                      <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                      <div class="info">
+                        <address>481 Goodisson str. 17790-60544 Washington</address>  
+                        <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</div>
+                        <a href="mailto:orders@mistercoffee.us" class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -501,8 +502,7 @@ We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould t
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
   <!-- WHERE TO BUY END -->
 
   <!-- MAIN REVIEWS -->
@@ -535,7 +535,7 @@ We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould t
   </section>
   <!-- MAIN REVIEWS END -->
 
-  <!-- MAIN BLOG -->
+  <!-- MAIN BLOG --
   <section class="main-blog">
     <div class="container">
       <div class="row">
@@ -617,3 +617,4 @@ We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould t
     </div>
   </section>
   <!-- MAIN BLOG END -->
+
