@@ -39,7 +39,7 @@
                                     </td>
                                   <td class="product-thumbnail">
                                       <a href="#">
-                                        <img src="<?php echo base_url(); ?>uploads/productthumbs/<?php echo $details[0]->picture; ?>" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" >
+                                        <img src="<?php echo base_url(); ?>uploads/productthumbs/<?php echo $details[0]->picture; ?>" class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" alt="" style="height: 100px;" >
                                       </a>
                                   </td>
                                   <td class="product-name" data-title="Product">
@@ -50,7 +50,7 @@
                                   </td>
                                   <td class="product-quantity" data-title="Quantity">
                                       <div class="quantity">
-                                          <input type="number" min="1" max="100" step="1" value="<?php echo $row->item;?>" id="itemno_<?php echo $row->id;?>" onchange="javascript:item(<?php echo $row->id;?>);">
+                                          <input type="number" min="1" max="100" step="1" value="<?php echo $row->item;?>" id="itemno_<?php echo $row->id;?>" onchange="javascript:item(<?php echo $row->id;?>);"><?php if($details[0]->category=="cake"){echo "pond";}else{echo "item";}?>
                                       </div>
                                   </td>
                                   <td class="product-subtotal" data-title="Total">
