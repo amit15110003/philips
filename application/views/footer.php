@@ -39,7 +39,7 @@
 					</div>
 					<div class="col-md-4 col-sm-6">
 						<div class="footer-about">
-							<div class="title">About Mr.Coffee</div>
+							<div class="title">About Philips Bakery</div>
 							<p>The Philips Bakery was established in Munger,Bihar with a dream to make quality and made from scratch cakes using only the finest ingredients. We have created beautiful, unique and delicious specialty cakes for thousands of satisfied customers.</p>
 						</div>
 					</div>
@@ -69,8 +69,11 @@
 		<div class="bottom-footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 text-center">
-						<div class="copyrights"><a href="trixno.com">Trixno</a> 2017 &copy; All Rights reserved <a href="#">Terms of Use</a></div>
+					<div class="col-md-9 text">
+						<div class="copyrights"><a href="philipsbakery.in">Philips Bakery</a> 2017 &copy; All Rights reserved  </div>
+					</div>
+					<div class="col-md-3 text left">
+						<div class="copyrights"> Designed by: <a href="trixno.com">trixno.com</a></div>
 					</div>
 				</div>
 			</div>
