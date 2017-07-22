@@ -38,8 +38,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <a href="index.html" class="main-logo"><img src="images/main-logo.png" alt=""></a>
-          <a href="index.html" class="small-logo"><img src="images/small-logo.png" alt=""></a>
+          <a href="index.html" class="main-logo"><img src="<?php echo base_url(); ?>media/images/main-logo.png" alt=""></a>
+          <a href="index.html" class="small-logo"><img src="<?php echo base_url(); ?>media/images/small-logo.png" alt=""></a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#coffee-menu" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
