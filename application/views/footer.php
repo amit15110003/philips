@@ -7,7 +7,7 @@
 					<div class="inner">
 						<div class="row">
 							<div class="col-lg-4 col-md-6">
-								<div class="top-title">Want to know about new types of coffee?</div>
+								<div class="top-title">Want to know about new collection of cakes?</div>
 								<div class="bottom-title">Get our weekly email</div>
 							</div>
 							<div class="col-lg-5 col-md-6">
@@ -45,9 +45,12 @@
 					</div>
 					<div class="col-md-3 col-sm-6">
 						<ul class="footer-contacts">
-							<li><i class="fa fa-phone" aria-hidden="true"></i>+80 (041) 2824 504 43</li>
-							<li><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@mistercoffee.us</li>
-							<li><i class="fa fa-skype" aria-hidden="true"></i>mrcoffee</li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i>+91 8083460761 </li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i>+91 9431292876 </li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i>+91 7677987685 </li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i>+91 9835466944 </li>
+							<li><i class="fa fa-envelope-o" aria-hidden="true"></i>orders@philipsbakery.in</li>
+							<li><i class="fa fa-facebook" aria-hidden="true"></i>@philipsbakery</li>
 						</ul>
 					</div>
 					<div class="col-md-3 col-sm-6">
@@ -67,7 +70,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<div class="copyrights"><a href="#">Just-themes</a> 2017 &copy; All Rights reserved <a href="#">Terms of Use</a></div>
+						<div class="copyrights"><a href="trixno.com">Trixno</a> 2017 &copy; All Rights reserved <a href="#">Terms of Use</a></div>
 					</div>
 				</div>
 			</div>

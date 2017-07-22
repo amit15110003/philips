@@ -50,7 +50,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="about-text">
-            <h2>About <span>Market</span></h2>
+            <h2>About <span>Philips</span></h2>
             <p> <a href="#">philipsbakery.in</a>  is an online Bakery, based in Munger, Bihar.
 We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould them as per your desire. </p>
             <ul class="about-slogan">
@@ -91,34 +91,34 @@ We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould t
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2><span>Why people</span> choose mr.Coffee</h2>
+          <h2><span>Why people</span> choose Philips Bakery</h2>
         </div>
         <div class="col-md-3">
           <div class="item">
-            <div class="count">46</div>
-            <div class="title">Coffee Markets</div>
-            <p class="text">Sed sagittis sodales lobortis.<br> Curabitur in eleifend turpis, id vehicula odio. </p>
+            <div class="count">10</div>
+            <div class="title">Years of experience</div>
+            <p class="text"><a href="#">Philips Bakery </a>have more than 10 years of experience</p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="item">
             <div class="count">19</div>
-            <div class="title">Varieties of coffee</div>
-            <p class="text">Sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. </p>
+            <div class="title">collection of Cakes</div>
+            <p class="text"><a href="#">Philips Bakery </a> have wide collection of cakes.</p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="item">
-            <div class="count">22</div>
-            <div class="title">Varieties of tea</div>
-            <p class="text">Sed sagittis sodales lobortis.<br> Curabitur in eleifend turpis, id vehicula odio. </p>
+            <div class="count">10</div>
+            <div class="title">collection of pastries</div>
+            <p class="text"><a href="#">Philips Bakery </a>have wide collection of pastries.</p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="item">
             <div class="count">83</div>
             <div class="title">Types of sweets</div>
-            <p class="text">Sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. </p>
+            <p class="text"><a href="#">Philips Bakery </a>have wide collection of sweets. </p>
           </div>
         </div>
       </div>
