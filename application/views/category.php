@@ -1,3 +1,14 @@
+  <!-- PAGE HEAD -->
+    <section class="page-head">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 style="text-transform: capitalize;"><?php echo $categoryval; ?></h1> 
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- PAGE HEAD END -->
  <!-- MAIN SHOP -->
   <section class="popular-item">
     <div class="container">

@@ -64,7 +64,7 @@
                   <a href="">products</a>
                   <ul class="sub-menu">
                    <?php foreach ($category as $row ) {?>
-                      <li><a href="<?php echo base_url("index.php/product/view/$row->category"); ?>"><?php echo $row->category;?></a></li>
+                      <li style="text-transform: capitalize;" ><a href="<?php echo base_url("index.php/product/view/$row->category"); ?>"><?php echo $row->category;?></a></li>
                   <?php }?>
                   </ul>
                 </li>

@@ -358,6 +358,13 @@ class user extends CI_Model
 		$query=$this->db->get('delivery');
 		return $query->result();
 	}
+	public function showorder($id)
+	{	
+		$this->db->order_by("id", "desc");
+		$this->db->where('uid', $id);
+		$query=$this->db->get('itemorder');
+		return $query->result();
+	}
 	public function showslider()
 	{
 		$query=$this->db->get('slider');;
