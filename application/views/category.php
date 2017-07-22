@@ -11,7 +11,7 @@
               <a href="#" class="name"><?php echo $row->title;?></a>
               <div class="text"><?php echo $row->category;?></div>
               <div class="price">&#8377; <?php echo $row->cost;?></div>
-              <a href="<?php echo base_url("index.php/product/details/$row->category/$row->id"); ?>" class="btn btn-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i>add to cart</a>
+              <a href="<?php echo base_url("index.php/product/details/$row->category/$row->id"); ?>" class="btn btn-default">View</a>
             </div>
           <?php }?>
         </div>

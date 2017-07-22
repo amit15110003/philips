@@ -56,7 +56,7 @@
           <?php foreach ($query2 as $row ) {?>
             <div class="col-md-3">
               <div class="product-item">
-                <div class="img-wrap"><a href="#"><img src="<?php echo base_url(); ?>uploads/productthumbs/<?php echo $row->picture;?>" alt=""></a></div>
+                <div class="img-wrap"><a href="#"><img src="<?php echo base_url(); ?>uploads/productthumbs/<?php echo $row->picture;?>" alt="" class="img-responsive"></a></div>
                 <a href="#" class="name"><?php echo $row->title;?></a>
                 <div class="text">Professional espresso serie</div>
                 <div class="price">&#8377; <?php echo $row->cost;?></div>

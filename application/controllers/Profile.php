@@ -47,6 +47,7 @@ class profile extends CI_Controller
         	}
         	$this->load->view('header',$data);
 			$this->load->view('profile',$data);
+			$this->load->view('footer');
         }
 		else
 		{
