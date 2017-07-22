@@ -23,19 +23,19 @@
             <h2>Contacts</h2>
             <div class="item">
               <div class="title"><i class="fa fa-location-arrow" aria-hidden="true"></i>ADDRESS</div>
-              <p>19 Walcott street,  8373620 London, GreatBritain</p>
+              <p>Philips Bakery ,Gulzar pokhar Munger,Bihar <br>PINCODE:811201</p>
             </div>
             <div class="item">
               <div class="title"><i class="fa fa-phone" aria-hidden="true"></i>PHONE</div>
-              <p>+80 (041) 2824 504 43</p>
+              <p>+91 8083460761<br>+91 9431292876<br>+91 7677987685<br>+91 9835466944</p>
             </div>
             <div class="item">
               <div class="title"><i class="fa fa-envelope-o" aria-hidden="true"></i>EMAIL</div>
-              <p><a href="mailto:orders@mistercoffee.us">orders@mistercoffee.us</a></p>
+              <p><a href="mailto:orders@philipsbakery.in">orders@philipsbakery.in</a></p>
             </div>
             <div class="item">
-              <div class="title"><i class="fa fa-skype" aria-hidden="true"></i>SKYPE</div>
-              <p><a href="callto:mrcoffee">mrcoffee</a></p>
+              <div class="title"><i class="fa fa-facebook" aria-hidden="true"></i>FACEBOOK</div>
+              <p><a href="callto:mrcoffee">@philipsbakery</a></p>
             </div>
           </div>
         </div>
