@@ -21,6 +21,7 @@ class cart extends CI_Controller
 		$details['category']=$this->user->showcategory();
 		$this->load->view('header',$details);
 		$this->load->view('cart',$details);
+		$this->load->view('footer');
 	}
 
 	 public function remove_cart()

@@ -21,7 +21,7 @@ class checkout extends CI_Controller
 		$this->form_validation->set_rules('lname', 'Last Name', 'trim|required|alpha|min_length[3]|max_length[30]');
 		if ($this->form_validation->run() == FALSE)
         {
-		$details['query']=$this->user->showcart($this->session->userdata('uid'));
+		$details['query']=$this->user->showcart_user($this->session->userdata('uid'));
 		$details['category']=$this->user->showcategory();
 		$details1=$this->user->deliveryadd($this->session->userdata('uid'));
 			if(!empty($details1)){
@@ -44,6 +44,7 @@ class checkout extends CI_Controller
 			$data['pin'] ="";}
 		$this->load->view('header',$details);
 		$this->load->view('checkout',$data);
+		$this->load->view('footer');
 		}
 		else{
 			$uid=$this->session->userdata('uid');
@@ -76,7 +77,7 @@ class checkout extends CI_Controller
 	public function payment()
 	{	
 		
-		$details['query']=$this->user->showcart($this->session->userdata('uid'));
+		$details['query']=$this->user->showcart_user($this->session->userdata('uid'));
 		$details['category']=$this->user->showcategory();
 		$details1=$this->user->deliveryadd($this->session->userdata('uid'));
 		$data['fname'] = $details1[0]->fname;
@@ -89,6 +90,7 @@ class checkout extends CI_Controller
 		$data['pin'] = $details1[0]->pin;
 		$this->load->view('header',$details);
 		$this->load->view('checkout1',$data);
+		$this->load->view('footer');
 		
 	}
 	
@@ -104,6 +106,7 @@ class checkout extends CI_Controller
     {
     	$this->load->view('header');
 		$this->load->view('success');
+		$this->load->view('footer');
     }
 
 	

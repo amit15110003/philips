@@ -128,25 +128,6 @@
                   });
       }
    </script>
-   <script type="text/javascript">
-    function remove_cart(postid)
-    {
-      var x = document.getElementById("cartcounter").innerHTML;
-      var l=document.getElementById("cost_"+postid).innerHTML;
-      var t=document.getElementById("totalcost").innerHTML;
-      var s=t-l;
-            $.ajax({
-                    type: "POST",
-                    url: "<?php echo site_url('cart/remove_cart');?>",
-                    data:"postid="+postid,
-                    success: function (response) {
-                        document.getElementById("cartcounter").innerHTML = --x;
-                        document.getElementById("totalcost").innerHTML=s;
-                     $("#cart_"+postid).hide();
-                    }
-                });
-    }
-  </script>
   <script type="text/javascript">
     function item(id)
     {

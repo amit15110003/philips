@@ -33,7 +33,7 @@
                             <?php foreach ($query as $row ) {
                             $details=$this->user->get_product_id($row->productid);
                             ?>
-                              <tr class="cart_item">
+                              <tr class="cart_item" id="cart_<?php echo $row->id;?>">
                                   <td class="product-remove">
                                       <a onclick="javascript:remove_cart(<?php echo $row->id;?>);" class="remove" title="Remove this item"><i class="fa fa-close" aria-hidden="true"></i></a> 
                                     </td>
@@ -77,7 +77,7 @@
                               <tbody>
                                   <tr class="cart-subtotal">
                                       <th>Subtotal</th>
-                                      <td data-title="Subtotal"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#8377;
+                                      <td data-title="Subtotal"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#8377;</span>
                                         <span id="totalcost" ><?php $i=0;
                                         foreach ($query as $row ) {
                                         $details=$this->user->get_product_id($row->productid);
@@ -87,7 +87,7 @@
                                   </tr>
                                   <tr class="order-total">
                                       <th>Total</th>
-                                      <td data-title="Total"><strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#8377;
+                                      <td data-title="Total"><strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#8377;</span>
                                       <span id="totalcost" ><?php $i=0;
                                       foreach ($query as $row ) {
                                       $details=$this->user->get_product_id($row->productid);
@@ -97,7 +97,7 @@
                               </tbody>
                           </table>
                           <div class="wc-proceed-to-checkout">
-                              <a href="#" class="checkout-button btn btn-default alt wc-forward">Checkout</a>
+                              <a  href="<?php echo base_url("index.php/checkout"); ?>" class="checkout-button btn btn-default alt wc-forward">Checkout</a>
                           </div>
                       </div>
                   </div>
