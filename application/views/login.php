@@ -17,10 +17,10 @@
             echo form_open("login/index", $attributes);?>
             <div class="contact-form">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <input class="contact-input" type="email" placeholder="Email *" name="email">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <input class="contact-input" type="password" placeholder="Password" name="password" style="height: 49px;
     line-height: 49px;
     padding: 10px 22px 10px 22px;

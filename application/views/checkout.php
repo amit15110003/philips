@@ -19,36 +19,34 @@
             <div class="col-md-6 ">
               <div class="form-group">
                 <label class="text-light text-italic">First Name <span class="text-primary"> *</span>
-                  <input type="text" class="form-control" name="fname" value="<?php echo $fname;?>" required>
+                  <input type="text" class="contact-input" name="fname" value="<?php echo $fname;?>" required>
                 </label>
               </div>
             </div>
             <div class="col-md-6 offset-top-10">
               <div class="form-group">
                 <label class="text-light text-italic">Last Name <span class="text-primary"> *</span>
-                  <input type="text" class="form-control" name="lname" value="<?php echo $lname;?>" required>
+                  <input type="text" class="contact-input" name="lname" value="<?php echo $lname;?>" required>
                 </label>
               </div>
             </div>
             <div class="col-md-6 ">
               <div class="form-group">
                 <label class="text-light text-italic">Phone <span class="text-primary"> *</span>
-                  <input type="text" class="form-control" name="mob" value="<?php echo $mob;?>" required>
+                  <input type="text" class="contact-input" name="mob" value="<?php echo $mob;?>" required>
                 </label>
               </div>
             </div>
             <div class="col-md-6 ">
               <div class="form-group">
                 <label class="text-light text-italic">Town / City<span class="text-primary"> *</span>
-                  <input type="text" class="form-control" name="town" value="<?php echo $town;?>" required>
+                  <input type="text" class="contact-input" name="town" value="<?php echo $town;?>" required>
                 </label>
               </div>
             </div>
             <div class="col-md-12 ">
               <div class="form-group ">
-                <label class="text-light text-italic">Address <span class="text-primary"> *</span>
-                  <input type="text" placeholder="Street address, Building Number" class="form-control" name="addr" value="<?php echo $addr;?>" required>
-                </label>
+                  <input type="text" placeholder="Street address, Building Number" class="contact-input" name="addr" value="<?php echo $addr;?>"  placeholder="Address " required>
               </div>
             </div>
           </div>

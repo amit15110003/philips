@@ -100,13 +100,6 @@ class profile extends CI_Controller
 	}
 
 	
-	  public function asked()
-	{
-			$details['query']=$this->user->showquestionbyid($this->session->userdata('uid'));
-			$this->load->view('asked',$details);
-       
-	}
-
 	 public function deletepost()
     {
     	$uid=$this->session->userdata('uid');
@@ -227,6 +220,7 @@ class profile extends CI_Controller
         	$data['address'] = $details[0]->address;
         	$this->load->view('header',$data);
 			$this->load->view('delivery',$data);
+			$this->load->view('footer');
         }
 		else
 		{	$uid =$this->session->userdata('uid');

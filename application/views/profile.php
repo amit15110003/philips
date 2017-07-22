@@ -1,15 +1,13 @@
 
     <div class="container" style="padding-top: 6%;">
       <div class="row">
-        <div class="col-md-4 text-xs-left">
-            <h4 style="text-transform: capitalize;"><?php echo $fname; ?> <?php echo $lname; ?></h4>
-            <h5>Email:<i> <?php echo $email; ?></i></h5>
-            <h5>Contact:<i> <?php echo $contact; ?></i></h5>
-            <hr class="divider divider-offset-lg divider-gray">
-            <h4>Delivery Address</h4>
-            <p><i> <?php echo $addr; ?></i></p>
-            <p><i><?php echo $town; ?> ,<?php echo $state; ?> , <?php echo $country; ?></i></p>
-            <p>PIN: <i><?php echo $pin; ?></i></p>
+        <div class="col-md-4">
+            <h5 style="text-transform: capitalize;"><?php echo $fname; ?> <?php echo $lname; ?><br><br>
+            Email:<i> <?php echo $email; ?></i><br><br>
+            Contact:<i> <?php echo $contact; ?></i></h5>
+            <hr>
+            <h5>Delivery Address <p> <?php echo $addr; ?><br>
+            <?php echo $town; ?></p></h5>
         </div>
         <div class="col-md-7" style="padding-top: 6%;">
           <div class="row">
