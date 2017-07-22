@@ -8,6 +8,9 @@ class signup extends CI_Controller
 		$this->load->library(array('session', 'form_validation'));
 		$this->load->database();
 		$this->load->model('user');
+		if($this->session->userdata('uid')){
+                redirect('profile', 'refresh');
+         }
 	}
 	
 	function index()
@@ -24,6 +27,7 @@ class signup extends CI_Controller
 			$details['category']=$this->user->showcategory();
 			$this->load->view('header',$details);
 			$this->load->view('signup');
+			$this->load->view('footer');
         }
 		else
 		{

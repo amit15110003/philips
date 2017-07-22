@@ -10,7 +10,7 @@
     </section>
   <!-- PAGE HEAD END -->
 
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-4 col-md-offset-4">
           <div class="contact-right">
             <h2>Login</h2>
             <?php $attributes = array("name" => "loginform");
