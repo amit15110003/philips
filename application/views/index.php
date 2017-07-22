@@ -87,7 +87,7 @@ We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould t
   <!-- MAIN ABOUT END -->
 
   <!-- MAIN REASONS -->
-  <section class="reasons parallax" style="background-image: url(images/parallax.jpg);">
+  <section class="reasons parallax" style="background-image: url('<?php echo base_url(); ?>media/images/parallax.jpg');">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -135,7 +135,7 @@ We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould t
           <div class="row owl-carousel shop-slider">
           <?php foreach ($query1 as $row ) {?>
             <div class="item">
-              <div class="img-wrap"><a href="<?php echo base_url("index.php/product/details/$row->category/$row->id"); ?>"><img src="<?php echo base_url(); ?>uploads/productthumbs/<?php echo $row->picture;?>" alt="" class="img-responsive"></a></div>
+              <div class="img-wrap"><a href="<?php echo base_url("index.php/product/details/$row->category/$row->id"); ?>"><img src="<?php echo base_url(); ?>uploads/productthumbs/<?php echo $row->picture;?>" alt="" class="img-responsive" ></a></div>
               <a href="#" class="name"><?php echo $row->category;?></a>
               <div class="text"><?php echo $row->title;?></div>
               <div class="price">&#8377; <?php echo $row->cost;?></div>
@@ -515,7 +515,7 @@ We specialise in Freshly Baked Cakes & Gateaux among other savouries and mould t
               <div class="item">
                 <div class="review-item">
                   <p class="text">Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus eget<br> magna aliquet ultricies. Praesent gravida hendrerit ex, nec eleifend sem convallis vitae. Sed sagittis<br> sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. </p>
-                  <div class="img-wrap"><img src="<?php echo base_url(); ?>media/images/review-ava.jpg" alt=""></div>
+                  <div class="img-wrap"><img src="<?php echo base_url(); ?>media/images/review-ava.jpg" alt="" class="img-responsive" ></div>
                   <div class="name">Leona Richards</div>
                   <div class="date">1 year ago</div>
                 </div>
