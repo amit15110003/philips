@@ -96,6 +96,7 @@
 <script type="text/javascript" src="<?php echo base_url('media/js/jquery.select2.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('media/js/jquery.swipebox.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('media/js/main.js'); ?>"></script>
+<script src="<?php echo base_url('media/js/jquery.elevatezoom.js'); ?>"></script>
 <script type="text/javascript">
     $("#gocartbtn").hide();
 </script>
@@ -169,5 +170,32 @@
                 });
     }
   </script>
+ <script type="text/javascript">
+  
+$("#zoom_09").elevateZoom({
+            gallery : "gallery_09",
+            galleryActiveClass: "active"
+            }); 
+            
+  
+     $("#select").change(function(e){
+   var currentValue = $("#select").val();
+   <?php $i=0;
+                  foreach ($query as $row) {$i=$i+1;?>
+   if(currentValue == <?php echo $i; ?>){    
+   smallImage = '<?php echo base_url(); ?>uploads/productthumbs/<?php echo $row->img; ?>';
+   largeImage = '<?php echo base_url(); ?>uploads/productthumbs/<?php echo $row->img; ?>';
+   }<?php }?>
+  // Example of using Active Gallery
+  $('#gallery_09 a').removeClass('active').eq(currentValue-1).addClass('active');   
+ 
+ 
+   var ez =   $('#zoom_09').data('elevateZoom');    
+   
+  ez.swaptheimage(smallImage, largeImage); 
+     
+    });
+
+</script>
 </body>
 </html>

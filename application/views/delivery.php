@@ -1,12 +1,22 @@
-  
+  <!-- PAGE HEAD -->
+    <section class="page-head">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Delivery Address</h1> 
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- PAGE HEAD END -->  
   <?php if(empty($data)){$data="0";}?>
-    <div class="container-fluid section-60 text-sm-left">
+    <div class="container-fluid ">
     <?php $attributes = array("name" => "purity");
       echo form_open("profile/delivery", $attributes);?>
-      <div class="contact-form row" style="padding-top: 6%;">
+      <div class="contact-form row" style="padding-top: 2%;">
         <div class="col-md-3 "></div>
         <div class="col-sm-6">
-          <h4> Billing Details</h4>
+          <h4> Delivery Address</h4>
           <div class="row offset-top-20">
             <div class="col-md-6 ">
                   <input type="text" class="contact-input" name="fname" value="<?php echo $fname;?>" placeholder="First Name " required>

@@ -53,6 +53,13 @@ class user extends CI_Model
 		return $this->db->update('user', $data);
 	}
 
+	function updatepass($id, $password)
+        {	
+    	$data = array('password'=>$password);
+    	$this->db->where('id', $id);
+		return $this->db->update('user', $data);
+	}
+	
 	public function showcategory()
 	{
 		$query=$this->db->get('category');;

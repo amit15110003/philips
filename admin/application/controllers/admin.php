@@ -297,8 +297,6 @@ class admin extends CI_Controller
 				'descr' =>ascii_to_entities($this->input->post('descr')) ,
 				'category' => $this->input->post('category'),
 				'scategory' => $this->input->post('scategory'),
-				'purity' => $this->input->post('purity'),
-				'gender' => $this->input->post('gender'),
 				'status' => "pending",
 				'picture' => $picture
 			);
@@ -372,9 +370,6 @@ public function updateproduct()
 				'descr' =>ascii_to_entities($this->input->post('descr')) ,
 				'category' => $this->input->post('category'),
 				'scategory' => $this->input->post('scategory'),
-				'purity' => $this->input->post('purity'),
-				'gender' => $this->input->post('gender'),
-				'color' => $this->input->post('color'),
 				'status'=>"pending"
 			);
 		if($this->user->update_product($data,$id))
@@ -401,12 +396,9 @@ public function updateproduct()
         	    	$data['productid'] = $details[0]->id;
         			$data['title'] = $details[0]->title;
         			$data['cost'] = $details[0]->cost;
-        			$data['gender'] = $details[0]->gender;
-					$data['color'] = $details[0]->color;
         			$data['Descr'] = $details[0]->Descr;
 					$data['category'] = $details[0]->category;
 					$data['scategory'] = $details[0]->scategory;
-					$data['purity'] = $details[0]->purity;
         	    $data['query2']=$this->user->showproductimage($pid);
      			$this->load->view('header');
 				$this->load->view('productedit',$data);

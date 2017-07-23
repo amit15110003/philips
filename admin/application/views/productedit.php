@@ -42,39 +42,6 @@
                    <?php }?>
                 </select>
               </div>
-              <div class="form-group">
-                <label>Purity</label>
-                <select class="form-control select2" style="width: 100%;" name="purity">
-
-                  <option value="<?php echo $purity; ?>" selected><?php echo $purity; ?></option>
-                <?php
-              foreach( $query3 as $row)
-                {?>
-                  <option ><?php echo $row->purity; ?></option>
-                   <?php }?>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Color</label>
-                <select class="form-control select2" style="width: 100%;" name="color">
-
-                  <option value="<?php echo $color; ?>" selected><?php echo $color; ?></option>
-                <?php
-              foreach( $query4 as $row)
-                {?>
-                  <option value="<?php echo $row->color; ?>" ><?php echo $row->color; ?></option>
-                   <?php }?>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Product For</label>
-                <select class="form-control select2" style="width: 100%;" name="gender">
-                  <option value="<?php echo $gender; ?>" selected><?php echo $gender; ?></option>
-                  <option >Women</option>
-                  <option >Men</option>
-                  <option >Kids</option>
-                </select>
-              </div>
               </div>
             <div class="box-footer">
               <button type="submit" class="btn btn-primary" name="submit" value="Upload">Submit</button>

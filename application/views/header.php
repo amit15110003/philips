@@ -71,9 +71,9 @@
                 <?php if ($this->session->userdata('fname')){ ?>
               <li class="parent"><a href="<?php echo base_url("index.php/profile"); ?>"><?php echo $this->session->userdata('fname'); ?></a>
                 <ul class="sub-menu">
-                  <li><a href="<?php echo base_url("index.php/profile"); ?>">My Account</a></li>
-                  <li><a href="<?php echo base_url("index.php/wishlist"); ?>">Wishlist</a></li>
+                  <li><a href="<?php echo base_url("index.php/cart"); ?>">cart</a></li>
                   <li><a href="<?php echo base_url("index.php/orders"); ?>">Orders</a></li>
+                  <li><a href="<?php echo base_url("index.php/profile"); ?>">My Account</a></li>
                   <li><a href="<?php echo base_url("index.php/home/logout"); ?>">Logout</a></li>
                 </ul>
               </li>
@@ -99,10 +99,6 @@
                     echo"0";
                     } ?></span>
                 </a>
-                <div class="top-search">
-                  <input type="text" placeholder="Search">
-                  <a href="#" class="fa fa-search search" aria-hidden="true"></a>
-                </div>
               </div>
             </div>
           </div>

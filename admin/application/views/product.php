@@ -38,34 +38,6 @@
                 </select>
               </div>
               <div class="form-group">
-                <label>Purity</label>
-                <select class="form-control select2" style="width: 100%;" name="purity">
-                <?php
-              foreach( $query3 as $row)
-                {?>
-                  <option ><?php echo $row->purity; ?></option>
-                   <?php }?>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Color</label>
-                <select class="form-control select2" style="width: 100%;" name="color">
-                <?php
-              foreach( $query4 as $row)
-                {?>
-                  <option value="<?php echo $row->color; ?>" ><?php echo $row->color; ?></option>
-                   <?php }?>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Product For</label>
-                <select class="form-control select2" style="width: 100%;" name="gender">
-                  <option >Women</option>
-                  <option >Men</option>
-                  <option >Kids</option>
-                </select>
-              </div>
-              <div class="form-group">
                   <label for="exampleInputFile">File input</label>
                   <input type="file" id="exampleInputFile" name="picture">
                 </div>

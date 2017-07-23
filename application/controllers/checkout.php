@@ -27,21 +27,15 @@ class checkout extends CI_Controller
 			if(!empty($details1)){
 			$data['fname'] = $details1[0]->fname;
 			$data['lname'] = $details1[0]->lname;
-			$data['country'] = $details1[0]->country;
-			$data['state'] = $details1[0]->state;
 			$data['town'] = $details1[0]->town;
 			$data['addr'] = $details1[0]->addr;
-			$data['mob'] = $details1[0]->mob;
-			$data['pin'] = $details1[0]->pin;}
+			$data['mob'] = $details1[0]->mob;}
 			else{
 			$data['fname'] = "";
 			$data['lname'] = "";
-			$data['country'] = "";
-			$data['state'] ="";
 			$data['town'] = "";
 			$data['addr'] ="";
-			$data['mob'] = "";
-			$data['pin'] ="";}
+			$data['mob'] = "";}
 		$this->load->view('header',$details);
 		$this->load->view('checkout',$data);
 		$this->load->view('footer');
@@ -53,11 +47,8 @@ class checkout extends CI_Controller
 				'fname' => $this->input->post('fname'),
 				'lname' => $this->input->post('lname'),
 				'mob' =>  $this->input->post('mob'),
-				'country' => $this->input->post('country'),
 				'addr' => $this->input->post('addr'),
-				'state' => $this->input->post('state'),
-				'town' => $this->input->post('town'),
-				'pin' =>  $this->input->post('pin'));
+				'town' => $this->input->post('town'));
 				$result=$this->user->update_delivery($data,$uid);
 		if ($result)
 			{
